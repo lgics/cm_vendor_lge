@@ -23,6 +23,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p500/proprietary/lib/libril.so:obj/lib/libril.so \
     vendor/lge/p500/proprietary/lib/libmmipl.so:obj/lib/libmmipl.so \
     vendor/lge/p500/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
+    vendor/lge/p500/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
     vendor/lge/p500/proprietary/lib/liboemcamera.so:obj/lib/liboemcamera.so
 
 
@@ -43,7 +44,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p500/proprietary/lib/libauth.so:system/lib/libauth.so \
     vendor/lge/p500/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/p500/proprietary/lib/libwms.so:system/lib/libwms.so \
-    vendor/lge/p500/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/lge/p500/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/lge/p500/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
     vendor/lge/p500/proprietary/lib/libgsdi_exp.so:system/lib/libgsdi_exp.so \
@@ -62,6 +62,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p500/proprietary/lib/libsnd.so:system/lib/libsnd.so \
     vendor/lge/p500/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
     vendor/lge/p500/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/lge/p500/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/lge/p500/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/p500/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/p500/proprietary/etc/firmware/BCM4325D1_004.002.004.0218.0248.hcd:system/etc/firmware/BCM4325D1_004.002.004.0218.0248.hcd \
@@ -77,6 +78,25 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p500/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
     vendor/lge/p500/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/lge/p500/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-    vendor/lge/p500/proprietary//lib/egl/egl.cfg:system//lib/egl/egl.cfg \
+    vendor/lge/p500/proprietary/lib/egl/egl.cfg:system/lib/egl/egl.cfg \
     vendor/lge/p500/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
-    vendor/lge/p500/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw
+    vendor/lge/p500/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
+    vendor/lge/p500/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
+    vendor/lge/p500/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
+    vendor/lge/p500/proprietary/lib/libOmxAdpcmDec.so:system/lib/libOmxAdpcmDec.so \
+    vendor/lge/p500/proprietary/lib/libOmxAmrDec.so:system/lib/libOmxAmrDec.so \
+    vendor/lge/p500/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
+    vendor/lge/p500/proprietary/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
+    vendor/lge/p500/proprietary/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
+    vendor/lge/p500/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
+    vendor/lge/p500/proprietary/lib/libOmxEvrcHwDec.so:system/lib/libOmxEvrcHwDec.so \
+    vendor/lge/p500/proprietary/lib/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
+    vendor/lge/p500/proprietary/lib/libOmxMp3Dec.so:system/lib/libOmxMp3Dec.so \
+    vendor/lge/p500/proprietary/lib/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
+    vendor/lge/p500/proprietary/lib/libOmxOn2Dec.so:system/lib/libOmxOn2Dec.so \
+    vendor/lge/p500/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
+    vendor/lge/p500/proprietary/lib/libOmxQcelpHwDec.so:system/lib/libOmxQcelpHwDec.so \
+    vendor/lge/p500/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
+    vendor/lge/p500/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
+    vendor/lge/p500/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
+    vendor/lge/p500/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so
