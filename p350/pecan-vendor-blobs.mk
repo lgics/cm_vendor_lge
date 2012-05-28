@@ -46,6 +46,7 @@ PRODUCT_COPY_FILES += \
       vendor/lge/pecan/proprietary/lib/libril.so:obj/lib/libril.so \
     vendor/lge/pecan/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/pecan/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/lge/pecan/proprietary/bin/rild:system/bin/rild \
     vendor/lge/pecan/proprietary/etc/flex/flex.xml:system/etc/flex/flex.xml
 
 # vendor/lge/pecan/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so 
