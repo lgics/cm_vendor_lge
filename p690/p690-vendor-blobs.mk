@@ -23,7 +23,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p690/proprietary/lib/libril.so:obj/lib/libril.so \
     vendor/lge/p690/proprietary/lib/libmmipl.so:obj/lib/libmmipl.so \
     vendor/lge/p690/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
-    vendor/lge/p690/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
     vendor/lge/p690/proprietary/lib/liboemcamera.so:obj/lib/liboemcamera.so
 
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -71,13 +70,11 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p690/proprietary/etc/firmware/wlan/qcom_fw.bin:system/etc/firmware/wlan/qcom_fw.bin \
     vendor/lge/p690/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
     vendor/lge/p690/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/lge/p690/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/lge/p690/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/p690/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/p690/proprietary/etc/firmware/BCM4330B1_002.001.003.0337.0338.hcd:system/etc/firmware/BCM4330B1_002.001.003.0337.0338.hcd \
     vendor/lge/p690/proprietary/bin/ami304d:system/bin/ami304d \
     vendor/lge/p690/proprietary/lib/hw/sensors.p690.so:system/lib/hw/sensors.p690.so \
-    vendor/lge/p690/proprietary/lib/hw/camera.msm7x27.so:system/lib/hw/camera.msm7x27.so \
     vendor/lge/p690/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/lge/p690/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/lge/p690/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
