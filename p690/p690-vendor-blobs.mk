@@ -23,7 +23,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p690/proprietary/lib/libril.so:obj/lib/libril.so \
     vendor/lge/p690/proprietary/lib/libmmipl.so:obj/lib/libmmipl.so \
     vendor/lge/p690/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
-    vendor/lge/p690/proprietary/lib/liboemcamera.so:obj/lib/liboemcamera.so
+    vendor/lge/p690/proprietary/lib/liboemcamera.so:obj/lib/liboemcamera.so \
+    vendor/lge/p690/proprietary/lib/libcamera.so:obj/lib/libcamera.so
 
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ###################### DON'T EDIT ###################################
@@ -70,6 +71,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p690/proprietary/etc/firmware/wlan/qcom_fw.bin:system/etc/firmware/wlan/qcom_fw.bin \
     vendor/lge/p690/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
     vendor/lge/p690/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+    vendor/lge/p690/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/lge/p690/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/p690/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/p690/proprietary/etc/firmware/BCM4330B1_002.001.003.0337.0338.hcd:system/etc/firmware/BCM4330B1_002.001.003.0337.0338.hcd \

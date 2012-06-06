@@ -23,8 +23,8 @@ PRODUCT_COPY_FILES += \
      vendor/lge/e510/proprietary/lib/libril.so:obj/lib/libril.so \
      vendor/lge/e510/proprietary/lib/libmmipl.so:obj/lib/libmmipl.so \
      vendor/lge/e510/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
-     vendor/lge/e510/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
-     vendor/lge/e510/proprietary/lib/liboemcamera.so:obj/lib/liboemcamera.so
+     vendor/lge/e510/proprietary/lib/liboemcamera.so:obj/lib/liboemcamera.so \
+     vendor/lge/e510/proprietary/lib/libcamera.so:obj/lib/libcamera.so
 
 
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

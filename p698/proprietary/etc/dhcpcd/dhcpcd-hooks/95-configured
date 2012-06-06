@@ -1,0 +1,32 @@
+# This script runs last, after all network configuration
+# has completed. It sets a property to let the framework
+# know that setting up the interface is complete.
+
+# For debugging:
+setprop dhcp.${interface}.reason "${reason}"
+
+case "${reason}" in
+# LGE_DEV_PORTING, [jongpil.yoon@lge.com], 2011-05-06, <for AutoIP> 
+# BOUND|INFORM|REBIND|REBOOT|RENEW|TIMEOUT) #original
+BOUND|INFORM|REBIND|REBOOT|RENEW|TIMEOUT|IPV4LL)
+# LGE_DEV_END, [jongpil.yoon@lge.com], 2011-05-06, <for AutoIP> 
+    setprop dhcp.${interface}.ipaddress "${new_ip_address}"
+    setprop dhcp.${interface}.gateway   "${new_routers%% *}"
+    setprop dhcp.${interface}.mask      "${new_subnet_mask}"
+    setprop dhcp.${interface}.leasetime "${new_dhcp_lease_time}"
+    setprop dhcp.${interface}.server    "${new_dhcp_server_identifier}"
+
+    setprop dhcp.${interface}.result "ok"
+    ;;
+
+# LGE_DEV_PORTING, [jongpil.yoon@lge.com], 2011-05-06, <for AutoIP> 
+# EXPIRE|FAIL|IPV4LL|STOP) #original
+EXPIRE|FAIL|STOP)
+# LGE_DEV_END, [jongpil.yoon@lge.com], 2011-05-06, <for AutoIP> 
+    setprop dhcp.${interface}.result "failed"
+    ;;
+
+RELEASE)
+    setprop dhcp.${interface}.result "released"
+    ;;
+esac

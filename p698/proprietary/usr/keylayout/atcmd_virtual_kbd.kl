@@ -1,0 +1,16 @@
+#
+key 158   BACK              WAKE_DROPPED
+key 230   HOME              WAKE
+key 62    ENDCALL           WAKE_DROPPED
+key 229   MENU         WAKE_DROPPED
+key 59    MENU         WAKE_DROPPED
+key 139   MENU              WAKE_DROPPED
+#key 102   ENDCALL           WAKE_DROPPED
+key 102   HOME              WAKE
+key 115   VOLUME_UP         WAKE
+key 114   VOLUME_DOWN       WAKE
+key 217   SEARCH            WAKE_DROPPED
+
+key 226   HEADSETHOOK       WAKE
+key 116   POWER             WAKE
+key 107   ENDCALL           WAKE_DROPPED
