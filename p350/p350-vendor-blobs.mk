@@ -39,7 +39,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p350/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/lge/p350/proprietary/lib/libdsm.so:system/lib/libdsm.so \
     vendor/lge/p350/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
-    vendor/lge/p350/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
     vendor/lge/p350/proprietary/lib/libnv.so:system/lib/libnv.so \
     vendor/lge/p350/proprietary/lib/libauth.so:system/lib/libauth.so \
     vendor/lge/p350/proprietary/lib/libril.so:system/lib/libril.so \
@@ -57,7 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p350/proprietary/lib/libbcmwl.so:system/lib/libbcmwl.so \
     vendor/lge/p350/proprietary/lib/libwmsts.so:system/lib/libwmsts.so \
     vendor/lge/p350/proprietary/lib/libdsutils.so:system/lib/libdsutils.so \
-    vendor/lge/p350/proprietary/lib/libidl.so:system/lib/libidl.so \
     vendor/lge/p350/proprietary/lib/liblgdrm.so:system/lib/liblgdrm.so \
     vendor/lge/p350/proprietary/lib/libsnd.so:system/lib/libsnd.so \
     vendor/lge/p350/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
@@ -65,7 +63,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p350/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/lge/p350/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/p350/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
-    vendor/lge/p350/proprietary/etc/firmware/BCM4325D1_004.002.004.0218.0248.hcd:system/etc/firmware/BCM4325D1_004.002.004.0218.0248.hcd \
+    vendor/lge/p350/proprietary/etc/firmware/BCM43291A0_003.001.013.0060.Pecan.hcd:system/etc/firmware/BCM43291A0_003.001.013.0060.Pecan.hcd \
     vendor/lge/p350/proprietary/etc/wl/rtecdc.bin:system/etc/wl/rtecdc.bin \
     vendor/lge/p350/proprietary/etc/wl/rtecdc-apsta.bin:system/etc/wl/rtecdc-apsta.bin \
     vendor/lge/p350/proprietary/bin/ami304d:system/bin/ami304d \
