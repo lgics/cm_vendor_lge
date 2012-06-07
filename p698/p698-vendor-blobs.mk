@@ -69,6 +69,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p698/proprietary/etc/wl/rtecdc-mfgtest.bin:system/etc/wl/rtecdc-mfgtest.bin \
     vendor/lge/p698/proprietary/etc/firmware/wlan/cfg.dat:system/etc/firmware/wlan/cfg.dat \
     vendor/lge/p698/proprietary/etc/firmware/wlan/qcom_fw.bin:system/etc/firmware/wlan/qcom_fw.bin \
+    vendor/lge/p698/proprietary/bin/rild:system/bin/rild \
     vendor/lge/p698/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
     vendor/lge/p698/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/lge/p698/proprietary/lib/libcamera.so:system/lib/libcamera.so \
@@ -76,7 +77,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p698/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/p698/proprietary/etc/firmware/BCM4330B1_002.001.003.0337.0338.hcd:system/etc/firmware/BCM4330B1_002.001.003.0337.0338.hcd \
     vendor/lge/p698/proprietary/bin/ami304d:system/bin/ami304d \
-    vendor/lge/p698/proprietary/lib/hw/sensors.p690.so:system/lib/hw/sensors.p690.so \
+    vendor/lge/p698/proprietary/lib/hw/sensors.p698.so:system/lib/hw/sensors.p698.so \
     vendor/lge/p698/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/lge/p698/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/lge/p698/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \

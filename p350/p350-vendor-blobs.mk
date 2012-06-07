@@ -69,7 +69,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p350/proprietary/etc/wl/rtecdc.bin:system/etc/wl/rtecdc.bin \
     vendor/lge/p350/proprietary/etc/wl/rtecdc-apsta.bin:system/etc/wl/rtecdc-apsta.bin \
     vendor/lge/p350/proprietary/bin/ami304d:system/bin/ami304d \
-    vendor/lge/p350/proprietary/lib/hw/sensors.p500.so:system/lib/hw/sensors.p500.so \
+    vendor/lge/p350/proprietary/lib/hw/sensors.p350.so:system/lib/hw/sensors.p350.so \
     vendor/lge/p350/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     vendor/lge/p350/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
     vendor/lge/p350/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
