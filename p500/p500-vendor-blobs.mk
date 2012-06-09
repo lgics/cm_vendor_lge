@@ -68,6 +68,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p500/proprietary/etc/firmware/BCM4325D1_004.002.004.0218.0248.hcd:system/etc/firmware/BCM4325D1_004.002.004.0218.0248.hcd \
     vendor/lge/p500/proprietary/etc/wl/rtecdc.bin:system/etc/wl/rtecdc.bin \
     vendor/lge/p500/proprietary/etc/wl/rtecdc-apsta.bin:system/etc/wl/rtecdc-apsta.bin \
+    vendor/lge/p500/proprietary/etc/wl/rtecdc-mfgtest.bin:system/etc/wl/rtecdc-mfgtest.bin \
     vendor/lge/p500/proprietary/bin/ami304d:system/bin/ami304d \
     vendor/lge/p500/proprietary/lib/hw/sensors.p500.so:system/lib/hw/sensors.p500.so \
     vendor/lge/p500/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
