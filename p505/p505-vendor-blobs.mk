@@ -66,6 +66,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p505/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/lge/p505/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/p505/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
+    vendor/lge/p505/proprietary/lib/libstagefright_soft_aacdec.so:system/lib/libstagefright_soft_aacdec.so \
     vendor/lge/p505/proprietary/etc/firmware/BCM4325D1_004.002.004.0218.0248.hcd:system/etc/firmware/BCM4325D1_004.002.004.0218.0248.hcd \
     vendor/lge/p505/proprietary/etc/wl/rtecdc.bin:system/etc/wl/rtecdc.bin \
     vendor/lge/p505/proprietary/etc/wl/rtecdc-apsta.bin:system/etc/wl/rtecdc-apsta.bin \
