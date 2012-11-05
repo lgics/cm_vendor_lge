@@ -74,4 +74,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p506/proprietary/etc/wl/rtecdc-apsta.bin:system/etc/wl/rtecdc-apsta.bin \
     vendor/lge/p506/proprietary/etc/wl/rtecdc-mfgtest.bin:system/etc/wl/rtecdc-mfgtest.bin \
     vendor/lge/p506/proprietary/bin/ami304d:system/bin/ami304d \
+    vendor/lge/p506/proprietary/lib/hw/audio.primary.p506.so:system/lib/hw/audio.primary.p506.so \
+    vendor/lge/p506/proprietary/lib/hw/audio_policy.p506.so:system/lib/hw/audio_policy.p506.so \
     vendor/lge/p506/proprietary/lib/hw/sensors.p506.so:system/lib/hw/sensors.p506.so
