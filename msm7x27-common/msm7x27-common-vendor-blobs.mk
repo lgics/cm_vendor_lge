@@ -47,7 +47,4 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm7x27-common/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so \
     vendor/lge/msm7x27-common/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/lge/msm7x27-common/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
-#   vendor/lge/msm7x27-common/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
-#	vendor/lge/msm7x27-common/proprietary/lib/libOmxQcelpDec.so:system/lib/libOmxQcelpDec.so \
-#	vendor/lge/msm7x27-common/proprietary/lib/libOpenMAXAL.so:system/lib/libOpenMAXAL.so \
     vendor/lge/msm7x27-common/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so
