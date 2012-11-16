@@ -26,9 +26,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/msm7x27-common/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
     vendor/lge/msm7x27-common/proprietary/lib/hw/audio.primary.msm7x27.so:system/lib/hw/audio.primary.msm7x27.so \
     vendor/lge/msm7x27-common/proprietary/lib/hw/audio_policy.msm7x27.so:system/lib/hw/audio_policy.msm7x27.so \
-    vendor/lge/msm7x27-common/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
-    vendor/lge/msm7x27-common/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
-    vendor/lge/msm7x27-common/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
+#    vendor/lge/msm7x27-common/proprietary/lib/libmm-omxcore.so:system/lib/libmm-omxcore.so \
+#    vendor/lge/msm7x27-common/proprietary/lib/libOmxCore.so:system/lib/libOmxCore.so \
+#    vendor/lge/msm7x27-common/proprietary/lib/libstagefrighthw.so:system/lib/libstagefrighthw.so \
     vendor/lge/msm7x27-common/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/lge/msm7x27-common/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
     vendor/lge/msm7x27-common/proprietary/lib/libOmxAdpcmDec.so:system/lib/libOmxAdpcmDec.so \
